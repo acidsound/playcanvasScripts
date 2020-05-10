@@ -11,3 +11,4 @@ Useful scripts for playcanvas
 * `orbit-camera/`: Camera entity에서 사용. 터치나 마우스를 사용하여 특정 물체를 관찰하는데 사용. 확대/축소/회전 지원.
 * `changing-scenes.js`: Camera entity에서 사용. 1초마다 지정한 Scene으로 변경한다.
 * `switching-textures.js`: Model entity에서 사용. 1초간격으로 지정한 Textures property를 순환하며 변경한다.
+* `animation-blending.js`: Model entity에서 사용. animation간 부드러운 연결을 구현한 예. https://developer.playcanvas.com/en/tutorials/animation-blending/
