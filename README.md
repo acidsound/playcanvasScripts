@@ -12,3 +12,7 @@ Useful scripts for playcanvas
 * `changing-scenes.js`: Camera entity에서 사용. 1초마다 지정한 Scene으로 변경한다.
 * `switching-textures.js`: Model entity에서 사용. 1초간격으로 지정한 Textures property를 순환하며 변경한다.
 * `animation-blending.js`: Model entity에서 사용. animation간 부드러운 연결을 구현한 예. https://developer.playcanvas.com/en/tutorials/animation-blending/
+* `picker_framebuffer.js`: Camera entity에서 사용. framebuffer를 사용한 entity 선택 감지. pc.Picker 사용. 물리 라이브러리가 필요없지만 모바일 등에서 성능 문제가 있음.
+* `picker_raycast.js`: Camera entity에서 사용. raycast를 사용한 entity 선택 감지. raycast을 from, to(camera의 nearClip~farClip) 사이를 선으로 연결(this.app.systems.rigidbody.raycastFirst)하여 처음 걸려드는 entity를 선택.
+* `shape-picker.js`: Root entity에서 사용. 물리엔진 없이 intersectsRay를 사용하여 선택 감지. https://developer.playcanvas.com/en/tutorials/entity-picking-without-physics/
+* `disable-contextmenu.js`: contextmenu(오른쪽 클릭)을 막는 script.
